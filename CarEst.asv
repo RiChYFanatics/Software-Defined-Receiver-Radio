@@ -1,0 +1,4 @@
+function EstCarrier = CarEst(r,f_s)
+T_s = 1/f_s;
+t = 0:T_s:length(r)/T_s-T_s; 
+plotspe
